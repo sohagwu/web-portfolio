@@ -9,3 +9,10 @@ h1{
     color:rgb(96, 134, 180);
     
  }
+ #b1{
+   height: 55px;
+   width: 100px;
+   background-color: brown;
+   font-size: 20px;
+   color: antiquewhite;
+ }
