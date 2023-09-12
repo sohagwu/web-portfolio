@@ -1,5 +1,5 @@
 h1{
-    font-size: 60px;
+    font-size: 35px;
 }
  #name{
     font-size: 70px;
@@ -12,7 +12,19 @@ h1{
  #b1{
    height: 55px;
    width: 100px;
-   background-color: brown;
+   background-color: orange;
    font-size: 20px;
    color: antiquewhite;
+ }
+ .half-width{
+   width: 40%;
+   float: left;
+ 
+   margin-left: 50px;
+ }
+ .half-width img{
+   width:100%;
+   padding: 50px;
+   margin-left: 60px;
+   margin-top: 150px;
  }
