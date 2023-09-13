@@ -3,10 +3,10 @@ h1{
 }
  #name{
     font-size: 70px;
-    font-family: 'Merienda', cursive;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
  }
  .n-color{
-    color:rgb(96, 134, 180);
+    color:rgb(26, 231, 7);
     
  }
  #b1{
@@ -19,7 +19,6 @@ h1{
  .half-width{
    width: 40%;
    float: left;
- 
    margin-left: 50px;
  }
  .half-width img{
@@ -27,4 +26,14 @@ h1{
    padding: 50px;
    margin-left: 60px;
    margin-top: 150px;
+ }
+ .backimg{
+  background-image:url(Projects/top-banner.png) ; /*background img set korar jonno*/
+  background-repeat: no-repeat;
+  }
+ 
+  
+
+ body{
+  height: fit-content; /*background img er jonno jate content er size onujayi fit houar jonno*/
  }
