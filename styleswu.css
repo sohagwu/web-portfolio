@@ -59,3 +59,30 @@ h1{
   font-weight: bold;
 
 }
+.highlt{
+  color: orange;
+}
+.box-for-text{
+  box-shadow: 10px 10px 20px gray ;
+  padding: 20px 20px;
+  background-color: white;
+}
+.expartise{
+  background-image: url(Projects/exp-bg.png);
+  background-repeat: no-repeat;
+  background-size: 80px;
+  background-position: left;
+}
+#full-stack{
+  border-left:7px solid ;
+  border-image: linear-gradient(180deg,  tomato,lightsalmon)  ;
+  border-image-slice: 1;
+}
+#baby-web{
+  border-left:7px solid ;
+  border-image: linear-gradient(180deg,  blue, cyan)  ;
+  border-image-slice: 1;
+}
+footer{
+  text-align: center;
+}
