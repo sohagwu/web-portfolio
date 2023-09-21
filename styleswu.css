@@ -86,3 +86,22 @@ h1{
 footer{
   text-align: center;
 }
+  /* ছোট স্ক্রিনের জন্য স্টাইল */
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 16px;
+    }
+    .header {
+      display: none;
+    }
+  }
+  
+  /* বড় স্ক্রিনের জন্য স্টাইল */
+  @media screen and (min-width: 769px) {
+    body {
+      font-size: 18px;
+    }
+    .header {
+      display: block;
+    }
+  }
